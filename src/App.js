@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+class navBar extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+      <header> 
+        <img src="images/logo.jpg"/>
       </header>
-    </div>
-  );
+      <nav className="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive" aria-controls="#navbar-responsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbar-responsive">
+        <ul className="nav navbar-nav">
+            <li className="nav-item"><a className="nav-link active" href="index.html">Inicio</a></li>
+            <li className="nav-item"><a className="nav-link" href="pages/productos.html">Productos</a></li>
+            <li className="nav-item"><a className="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+            <li className="nav-item"><a className="nav-link" href="pages/puntos-venta.html">Puntos de Venta</a></li>
+            <li className="nav-item"><a className="nav-link" href="pages/contacto.html">Contacto</a></li> 
+        </ul>
+        </div>
+      </nav>
+      </React.Fragment>
+    ); // href todavia no hecho - Tengo la pagina ya armada, por eso estan los href- Tambien faltaria el diseño del bootstrap, ya que tenia hecho el navbar con boots.
+  }
 }
 
-export default App;
+export default navBar;
