@@ -1,19 +1,25 @@
 import React from "react";
 
 import NavBar from './components/NavBar/NavBar'
+import Header from './components/Header/Header.js'
+import ItemListContainer from "./components/ItemList/ItemListContainer";
 
-class navBar extends React.Component {
+class app extends React.Component {
   render() {
     return (
-        <div>
+        <>
             <div>
+              <Header/>
             </div>
             <div>
               <NavBar/>
             </div>
-        </div>
-    ); // href todavia no hecho - Tengo la pagina ya armada, por eso estan los href- No logre colocar el icono del carrito en el Navbar. 
+            <div>
+              <ItemListContainer/>
+            </div>
+        </>
+    );
   }
 }
 
-export default navBar;
+export default app;
