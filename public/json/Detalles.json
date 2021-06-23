@@ -1,0 +1,41 @@
+[{
+    "title": "Leche de limpieza",
+    "id": "1",
+    "price": 800,
+    "pictureUrl": "https://ibb.co/sHvdwVd",
+    "stock": "20",
+    "description": "Para piel sensible",
+    "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+   
+ 
+},
+{
+    "title": "Loción Antiséptica",
+    "id": "2",
+    "price": 990,
+    "pictureUrl": "https://ibb.co/P64TzsZ",
+    "stock": "15",
+    "description": "Loción Antiséptica",
+    "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "   
+ 
+},
+{
+    "title": "Labial humectante",
+    "id": "3",
+    "price": 250,
+    "pictureUrl": "https://ibb.co/vQbwzmp",
+    "stock": "50",
+    "description": "Humectante Labial",
+    "detail":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+
+},
+{
+    "title": "Hexaderm",
+    "id": "4",
+    "price": 1200,
+    "pictureUrl": "https://ibb.co/hZ2KrqW",
+    "stock": "20",
+    "description": "Crema antiaging",
+    "detail":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+
+}]
