@@ -7,11 +7,10 @@ function ItemList() {
 
     useEffect(() => {
         setTimeout(()=>{
-            axios('json/Detalles.json')
+            axios('../json/Detalles.json')
            .then(respuesta => setProductos(respuesta.data));    
         }, 2000);     
     }, []);
-    console.log("detalles" , productos);
     return (
         <div className="itemList">
             {productos.map((item) => {

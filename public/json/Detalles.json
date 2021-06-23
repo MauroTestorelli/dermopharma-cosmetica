@@ -2,10 +2,10 @@
     "title": "Leche de limpieza",
     "id": "1",
     "price": 800,
-    "pictureUrl": "https://ibb.co/sHvdwVd",
+    "pictureUrl": "http://imgfz.com/i/A7j3KPl.jpeg",
     "stock": "20",
-    "description": "Para piel sensible",
-    "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+    "description": "Leche desmaquillante",
+    "detail": "Aca iria la descripcion de mi producto. "
    
  
 },
@@ -13,29 +13,29 @@
     "title": "Loción Antiséptica",
     "id": "2",
     "price": 990,
-    "pictureUrl": "https://ibb.co/P64TzsZ",
+    "pictureUrl": "http://imgfz.com/i/ScIOaGF.jpeg",
     "stock": "15",
     "description": "Loción Antiséptica",
-    "detail": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "   
+    "detail": "Aca iria la descripcion de mi producto. "   
  
 },
 {
     "title": "Labial humectante",
     "id": "3",
     "price": 250,
-    "pictureUrl": "https://ibb.co/vQbwzmp",
+    "pictureUrl": "http://imgfz.com/i/KIrCRqU.jpeg",
     "stock": "50",
     "description": "Humectante Labial",
-    "detail":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+    "detail":"Aca iria la descripcion de mi producto. "
 
 },
 {
     "title": "Hexaderm",
     "id": "4",
     "price": 1200,
-    "pictureUrl": "https://ibb.co/hZ2KrqW",
+    "pictureUrl": "http://imgfz.com/i/ITt1MmO.jpeg",
     "stock": "20",
     "description": "Crema antiaging",
-    "detail":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+    "detail":"Aca iria la descripcion de mi producto. "
 
 }]
