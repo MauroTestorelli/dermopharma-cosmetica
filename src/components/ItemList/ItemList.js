@@ -2,15 +2,8 @@ import React, {useEffect, useState} from 'react';
 import ItemCard from './ItemCard';
 import axios from 'axios';
 
-function ItemList() {
-    const [productos, setProductos] = useState([]);
+function ItemList({productos}) {
 
-    useEffect(() => {
-        setTimeout(()=>{
-            axios('../json/Detalles.json')
-           .then(respuesta => setProductos(respuesta.data));    
-        }, 2000);     
-    }, []);
     return (
         <div className="itemList">
             {productos.map((item) => {

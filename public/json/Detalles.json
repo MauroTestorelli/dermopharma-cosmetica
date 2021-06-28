@@ -5,7 +5,8 @@
     "pictureUrl": "http://imgfz.com/i/A7j3KPl.jpeg",
     "stock": "20",
     "description": "Leche desmaquillante",
-    "detail": "Aca iria la descripcion de mi producto. "
+    "detail": "Aca iria la descripcion de mi producto. ",
+    "category":"Facial"
    
  
 },
@@ -16,7 +17,8 @@
     "pictureUrl": "http://imgfz.com/i/ScIOaGF.jpeg",
     "stock": "15",
     "description": "Loción Antiséptica",
-    "detail": "Aca iria la descripcion de mi producto. "   
+    "detail": "Aca iria la descripcion de mi producto. ",
+    "category":"Corporal"  
  
 },
 {
@@ -26,7 +28,8 @@
     "pictureUrl": "http://imgfz.com/i/KIrCRqU.jpeg",
     "stock": "50",
     "description": "Humectante Labial",
-    "detail":"Aca iria la descripcion de mi producto. "
+    "detail":"Aca iria la descripcion de mi producto. ",
+    "category":"Facial"
 
 },
 {
@@ -36,6 +39,7 @@
     "pictureUrl": "http://imgfz.com/i/ITt1MmO.jpeg",
     "stock": "20",
     "description": "Crema antiaging",
-    "detail":"Aca iria la descripcion de mi producto. "
+    "detail":"Aca iria la descripcion de mi producto. ",
+    "category":"Facial"
 
 }]
